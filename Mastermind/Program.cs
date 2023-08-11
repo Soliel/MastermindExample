@@ -112,7 +112,7 @@ while(playing)
         } 
         else
         {
-            Console.WriteLine($"Better luck next time! The correct answer was {answer}");
+            Console.WriteLine($"Better luck next time! The correct answer was {new string(answer)}");
         }
     }
 
